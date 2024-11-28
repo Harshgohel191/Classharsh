@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #ba9760;
+}
+#mainbox {
+    height: 650px;
+    width: 417px;
+    border-radius: 48px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px auto;
+    border: 2px solid black;
+}
+
+#image {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#star #star1{
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+}
+
+#image img {
+    height: 80%;
+    width: auto;
+}
+
+
+.content {
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-family: sans-serif;
+    margin: 10px 0;
+  }
+  
+  .description {
+    color: #555;
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
+  .add-ons {
+    margin: 15px 0;
+  }
+  
+  .add-ons p {
+    margin: 0 0 10px;
+    font-weight: bold;
+  }
+  
+  .tag {
+    display: inline-block;
+    background-color: seashell;
+    color: #444;
+    border-radius: 12px;
+    font-size: 12px;
+    padding: 5px 10px;
+    margin: 5px;
+  }
+
+  .tag1 {
+    display: inline-block;
+    background-color: rgb(211, 240, 168);
+    color: #444;
+    border-radius: 12px;
+    font-size: 12px;
+    padding: 5px 10px;
+    margin: 5px;
+  }
+  
+
+  .tag2 {
+    display: inline-block;
+    background-color: rgb(247, 172, 142);
+    color: #444;
+    border-radius: 12px;
+    font-size: 12px;
+    padding: 5px 10px;
+    margin: 5px;
+  }
+
+
+  .tag3 {
+    display: inline-block;
+    background-color: rgb(241, 249, 78);
+    color: #444;
+    border-radius: 12px;
+    font-size: 12px;
+    padding: 5px 10px;
+    margin: 5px;
+  }
+
+  .price-and-order {
+    margin: 20px 0;
+  }
+  
+  .price {
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .orderbutton {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    justify-content: right;
+  }
+  
+  .orderbutton:hover {
+    background-color: #444;
+  }
